@@ -14,6 +14,7 @@ code python.code-workspace
 ```
 5. Install dependencies and start running tests:
 ```
+python3 -m venv venv
 python3 -m pip install -r requirements.txt
 python3 -m unittest
 ```
