@@ -6,7 +6,7 @@
 # Setup
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/).
-2. Install [Python](https://nodejs.org/en/download/).
+2. Install [Python](https://www.python.org/downloads/).
 3. Clone this repo and `cd` into this directory
 4. Open VS Code:
 ```
