@@ -1,12 +1,28 @@
 class Foo
 {
-	public String getFoo()
+	public static String getFoo()
 	{
 		return "Foo!";
 	}
 
-	public int fibonacci(int n)
+	public static int fibonacci(int n)
 	{
 		return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
 	}
+}
+
+class Person
+{
+	String firstName;
+	String lastName;
+
+	public Person(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+	public String fullName() {
+		return this.firstName+' '+this.lastName;
+	}
+
 }
